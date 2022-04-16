@@ -5,7 +5,7 @@ const ChanelInfo = () => {
   return (
     <Container>
         <HashtagIcon />
-        <Title>Chat-livre</Title>
+        <Title>React js</Title>
         <Separator />
         <Description>Canal aberto para conversas</Description>
     </Container>

@@ -1,5 +1,4 @@
 import React from 'react'
-import Logo from '../../assets/logoDiscord.png';
 import { Button } from './ServerButtonStyles';
 
 const ServerButton = ({isHome,selected,hasNotifications,mentions}) => {
@@ -10,7 +9,7 @@ const ServerButton = ({isHome,selected,hasNotifications,mentions}) => {
         mentions={mentions}
         className={selected ? 'active':''}
     >
-        {isHome && <img src={Logo} alt='Logo do Discord'/>}
+        {isHome}
     </Button>
   )
 }

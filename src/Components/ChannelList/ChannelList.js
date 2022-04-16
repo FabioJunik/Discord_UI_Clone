@@ -9,13 +9,18 @@ const ChannelList = () => {
             <span>Canais de texto</span>
             <AddCategoryIcon/>
         </Category>
-        <ChannelButton channelName='chat-livre'/>
-        <ChannelButton channelName='Estudo'/>
-        <ChannelButton channelName='Dline-code'/>
-        <ChannelButton channelName='Trabalho'/>
-        <ChannelButton channelName='Ok'/>
-        <ChannelButton channelName='React js'/>
+        <ChannelButton channelName='geral'/>
+        <ChannelButton channelName='Logica'/>
+        <ChannelButton channelName='htm-css'/>
         <ChannelButton channelName='Javascript'/>
+        <ChannelButton channelName='React js'/>
+        <br/>
+        <Category>
+            <span>Canais de voz</span>
+            <AddCategoryIcon/>
+        </Category>
+        <ChannelButton channelName='Geral'/>
+        <ChannelButton channelName='Cabana do José'/>
     </Container>
   )
 }

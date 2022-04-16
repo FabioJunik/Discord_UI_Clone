@@ -13,7 +13,7 @@ export const Container = styled.div`
         width:4px;   
     }
     
-    ::-webkit-scrollbar-track{
+    ::-webkit-scrollbar-trumb{
         background-color: var(--tertiary);
         border-radius: 4px;
     }

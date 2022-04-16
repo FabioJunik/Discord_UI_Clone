@@ -4,7 +4,7 @@ import { Container, Title, ExpandIcon} from './ServerNameStyles'
 const ServerName = () => {
   return (
     <Container>
-        <Title>Servidor do Fábio</Title>
+        <Title>Acadimia DLine-code</Title>
         <ExpandIcon/>
     </Container>
   )
