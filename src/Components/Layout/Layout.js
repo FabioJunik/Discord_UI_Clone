@@ -5,6 +5,7 @@ import ServerName from '../ServerName/ServerName';
 import ChannelInfo from '../ChannelInfo/ChannelInfo';
 import ChannelList from '../ChannelList/ChannelList';
 import UserInfo from '../UserInfo/UserInfo';
+import UserList from '../UserList/UserList';
 
 
 const Layout = () => {
@@ -16,6 +17,8 @@ return (
         <ChannelInfo/>
         <ChannelList/>
         <UserInfo/>
+        <div/>
+        <UserList/>
     </LayoutStyles>
 )
 }
