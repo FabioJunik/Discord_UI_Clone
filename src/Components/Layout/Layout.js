@@ -3,6 +3,8 @@ import LayoutStyles from './LayoutStyles';
 import ServerList from '../ServerList/ServerList';
 import ServerName from '../ServerName/ServerName';
 import ChannelInfo from '../ChannelInfo/ChannelInfo';
+import ChannelList from '../ChannelList/ChannelList';
+import UserInfo from '../UserInfo/UserInfo';
 
 
 const Layout = () => {
@@ -12,6 +14,8 @@ return (
         <ServerList/>
         <ServerName/>
         <ChannelInfo/>
+        <ChannelList/>
+        <UserInfo/>
     </LayoutStyles>
 )
 }
