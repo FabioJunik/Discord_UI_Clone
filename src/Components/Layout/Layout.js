@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import LayoutStyles from './LayoutStyles';
+import ServerList from '../ServerList/ServerList';
 
 const Layout = () => {
-  return (
-    <div>
-        
-    </div>
-  )
+
+return (
+    <LayoutStyles>
+        <ServerList/>
+    </LayoutStyles>
+)
 }
 
 export default Layout
