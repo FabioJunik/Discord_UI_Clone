@@ -6,6 +6,7 @@ import ChannelInfo from '../ChannelInfo/ChannelInfo';
 import ChannelList from '../ChannelList/ChannelList';
 import UserInfo from '../UserInfo/UserInfo';
 import UserList from '../UserList/UserList';
+import ChannelData from '../ChannelData/ChannelData';
 
 
 const Layout = () => {
@@ -17,7 +18,7 @@ return (
         <ChannelInfo/>
         <ChannelList/>
         <UserInfo/>
-        <div/>
+        <ChannelData/>
         <UserList/>
     </LayoutStyles>
 )
